@@ -20,3 +20,5 @@ def plot_sample(lr, sr):
         plt.title(title)
         plt.xticks([])
         plt.yticks([])
+
+    plt.show()    # Without this no window will appear.

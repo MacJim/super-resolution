@@ -58,6 +58,8 @@ After download, extract them in the root folder of the project with
 
 ### EDSR
 
+Run `tests/EDSR.py`.
+
 ```python
 from model import resolve_single
 from model.edsr import edsr
@@ -76,6 +78,8 @@ plot_sample(lr, sr)
 ![result-edsr](docs/images/result-edsr.png)
 
 ### WDSR
+
+Run `tests/WDSR.py`.
 
 ```python
 from model.wdsr import wdsr_b
@@ -98,6 +102,8 @@ compile the model with `model.compile(loss='mae')` in advance. This issue doesn'
 model directly with `model(...)` though. To be further investigated ... 
 
 ### SRGAN
+
+Run `tests/SRGAN.py`.
 
 ```python
 from model.srgan import generator

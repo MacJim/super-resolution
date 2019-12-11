@@ -7,7 +7,8 @@ from utils import load_image, plot_sample
 model = generator()
 model.load_weights('../weights/srgan/gan_generator.h5')
 
-lr = load_image('../demo/0869x4-crop.png')
+# lr = load_image('../demo/0869x4-crop.png')
+lr = load_image('../demo/1.png')
 sr = resolve_single(model, lr)
 
 plot_sample(lr, sr)

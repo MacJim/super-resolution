@@ -1,12 +1,13 @@
+# Weight files.
+/weights
+
 # Temporary files.
 .ipynb_checkpoints
 .div2k
 .ckpt
 
 # Output images
-/Matched_points.jpg
-/Panorama_image.jpg
-/data
+/tests/*.png
 
 # Editor preferences
 /.vscode
